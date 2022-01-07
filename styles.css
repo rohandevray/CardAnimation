@@ -28,7 +28,9 @@ body {
   min-height: 80vh;
   width: 35rem;
   border-radius: 30px;
-  padding: 0rem 5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
 
@@ -56,10 +58,10 @@ body {
   z-index: 1;
 }
 
-.info h1 {
+/* .info h1 {
   font-size: 3rem;
   transition: all 0.75s ease-out;
-}
+} */
 .info h3 {
   font-size: 1.3rem;
   padding: 2rem 0rem;
@@ -90,7 +92,21 @@ body {
 
 .title{
   position: relative;
-  left: 50px;
+  left: 80px;
+  top:5px;
+  font-size: 1.8rem;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 2.3%;
+  font-weight: 1000;
+  word-spacing: 6px;
+}
+.head{
+  color: #00bfa6;
+  font-size: 1.8rem;
+  font-family: 'Raleway', sans-serif;
+  left:5rem;;
+  font-weight: bold;
 }
 
 .btn:hover{
@@ -239,3 +255,4 @@ span{
   border-radius: 50%;
   z-index: 1;
 }
+
