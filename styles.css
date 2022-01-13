@@ -132,8 +132,9 @@ body {
 .area::placeholder{
 font-family: 'Montserrat', sans-serif;
 font-size: 1.1rem;
-position: relative;
-left: 0.5px;
+position: absolute;
+left: 4rem;
+
 top: 0.2rem;
 
 }
